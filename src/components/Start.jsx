@@ -1,0 +1,17 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+export const Start = () => {
+  return (
+    <>
+      <div className="container d-flex align-items-center flex-column">
+        <img src="./src/assets/avataaars.svg" alt="sadsad" />
+        <p>START BOOTSTRAP</p>
+        <span>
+          <hr />
+          <FontAwesomeIcon icon="fa-solid fa-star" /> 
+          <hr />
+        </span>
+      </div>
+    </>
+  )
+}
