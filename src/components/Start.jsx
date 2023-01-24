@@ -1,10 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import avatarImg from "../assets/avataaars.svg"
 
 export const Start = () => {
   return (
     <>
       <div className="container d-flex align-items-center flex-column">
-        <img src="./src/assets/avataaars.svg" alt="sadsad" />
+        <img src={avatarImg} alt="sadsad" />
         <p>START BOOTSTRAP</p>
         <span>
           <hr />
