@@ -88,75 +88,38 @@ span{
     height: 60px;
 }
 
-.contact-me{
-    color: rgb(44, 62, 80);
-    text-align: center;
-    padding: 80px;
-    font-size: 30px;
-    padding: 0 250px;
-}
-
 .contact-me hr{
     width: 100px;
     height: 3px;
     margin: 0 13px;
 }
 
+.contact-me{
+    padding: 40px 260px;
+    text-align: center;
+}
+
+.form-control{
+    height: 100px;
+}
+
 label{
-    font-size: 1rem;
-    display: flex;
-    justify-content: flex-start;
-    border-top-width: 0px;
-    border-right-width: 0px;
+    color: gray;
 }
 
-input,textarea{
-  width: 100%;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  border-bottom-width: 1px;
+input{
+    padding: 10px;
+    margin: 10px 0;
 }
 
-input:focus {
-    outline: none;
+#floatingMessage{
+    height: 250px;
 }
 
-input::placeholder {
-    font-size: 25px;
-    padding: 10px 0;
-    color: #6c757d;
-    font-family: Arial, Helvetica, sans-serif;
+button{
+    display: block;
+    margin: 10px 0;
 }
-
-input:focus::placeholder, input:active {
-    font-size: 12px;
-    color: hwb(210 76% 23%);
-  }
-
-textarea{
-    width: 100%;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    height: 10rem;
-}
-
-textarea:focus {
-    outline: none;
-}
-
-textarea::placeholder {
-    font-size: 25px;
-    padding: 10px 0;
-    color: #6c757d;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-textarea:focus::placeholder, textarea:active {
-    font-size: 12px;
-    color: hwb(210 76% 23%);
-  }
 
 h1{
     font-size: 4rem;

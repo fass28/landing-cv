@@ -3,7 +3,7 @@ export const Contact = () => {
   return (
     <>
     <section className="contact-me">
-      <form autocomplete="off">
+      <form action="">
         <div className='contact-title'>
           <h2>CONTACT ME</h2>
           <span>
@@ -12,19 +12,23 @@ export const Contact = () => {
               <hr />
           </span>
         </div>
-        <div >
-          <input placeholder="Full name" type="text" />
+        <div className="form-floating">
+          <input type="password" className="form-control" id="floatingName" placeholder="Password" />
+          <label for="floatingName">Full name</label>
         </div>
-        <div >
-          <input placeholder="Email address" type="text"  />
+          <div className="form-floating">
+            <input type="password" className="form-control" id="floatingEmail" placeholder="Password" />
+            <label for="floatingEmail">Email address</label>
+          </div>
+          <div className="form-floating">
+            <input type="password" className="form-control" id="floatingPhone" placeholder="Password" />
+            <label for="floatingPhone">Phone Number</label>
+          </div>
+          <div className="form-floating">
+            <textarea type="password" className="form-control" id="floatingMessage" placeholder="Password"></textarea>
+            <label for="floatingMessage">Message</label>
         </div>
-        <div >
-          <input placeholder="Phone number" type="text"  />
-        </div>
-        <div >
-          <textarea placeholder="Message" type="text"  />
-        </div>
-        <button className="btn btn-success">Send</button>
+        <button className='btn btn-success'>Send</button>
       </form>
     </section>
     </>
