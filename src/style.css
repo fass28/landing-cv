@@ -142,3 +142,58 @@ h6 {
 p{
     color: white;
 }
+
+.footer{
+    background-color: rgb(44, 62, 80);
+    color: white;
+    padding: 80px 260px;
+    text-align: center;
+}
+
+.footer h4{
+    margin-bottom: 40px;
+}
+
+#icon{
+    display: inline-block;
+    text-decoration: none !important;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    border: solid;
+    border-radius: 50%;
+    border-width: 2px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+
+#icon:hover{
+    background-color: white;
+    color: rgb(44, 62, 80);;
+}
+
+.icon{
+    vertical-align: middle;
+}
+
+
+
+#facebook:hover{
+    color: black;
+ 
+}
+
+.copyright{
+    background-color:#1a252f;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 a{
+    color: #1ABC9C;
+}
