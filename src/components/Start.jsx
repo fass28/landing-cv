@@ -4,7 +4,7 @@ import avatarImg from "../assets/avataaars.svg"
 export const Start = () => {
   return (
     <>
-      <div className="container d-flex align-items-center flex-column start">
+      <section className="container d-flex align-items-center flex-column start">
         <img src={avatarImg} alt="sadsad" />
         <h1>START BOOTSTRAP</h1>
         <span>
@@ -13,7 +13,7 @@ export const Start = () => {
           <hr />
         </span>
         <h6>Graphic Artist - Web Designer - Illustrator</h6>
-      </div>
+      </section>
     </>
   )
 }

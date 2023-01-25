@@ -1,7 +1,7 @@
 export const NavBar = () => {
   return (
     <>  
-       <nav className="navbar navbar-expand-lg navbar-dark" id="mainNav">
+       <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <a className="navbar-brand" >START BOOTSTRAP</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
