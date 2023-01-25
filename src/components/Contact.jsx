@@ -28,7 +28,7 @@ export const Contact = () => {
             <textarea type="password" className="form-control" id="floatingMessage" placeholder="Password"></textarea>
             <label for="floatingMessage">Message</label>
         </div>
-        <button className='btn btn-success'>Send</button>
+        <button className='btn btn-success' id='button'>Send</button>
       </form>
     </section>
     </>

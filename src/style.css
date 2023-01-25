@@ -116,9 +116,13 @@ input{
     height: 250px;
 }
 
-button{
+#button {
+    border-color: white;
+    background-color: #1ABC9C;
     display: block;
     margin: 10px 0;
+    height: 60px;
+    width: 85px;
 }
 
 h1{
