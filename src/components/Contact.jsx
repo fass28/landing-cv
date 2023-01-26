@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export const Contact = () => {
   return (
     <>
-    <section className="contact-me">
+    <section className="contact-me" id='contact'>
       <form action="">
         <div className='contact-title'>
           <h2>CONTACT ME</h2>

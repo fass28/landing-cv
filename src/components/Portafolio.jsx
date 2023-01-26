@@ -8,7 +8,7 @@ import img06 from "../assets/06.png"
 
 export const Portafolio = () => {
   return (
-    <section className="container d-flex align-items-center flex-column portafolio">
+    <section className="container d-flex align-items-center flex-column portafolio" id='portfolio'>
       <div className='portfolio-title'>
         <h2>PORTFOLIO</h2>
         <span>
@@ -18,15 +18,26 @@ export const Portafolio = () => {
         </span>
       </div>
      <div className='row'>
-        <img src={img01} alt="" className='col-4' />
-        <img src={img02} alt="" className='col-4'/>
-        <img src={img03} alt="" className='col-4'/>
-     </div>
-     <div className='row'>
-        <img src={img04} alt="" className='col-4' />
-        <img src={img05} alt="" className='col-4'/>
-        <img src={img06} alt="" className='col-4'/>
-     </div>
+        <div className='col-md-6 col-lg-4' >
+          <img src={img01} alt="" />
+        </div>
+        <div className='col-md-6 col-lg-4'>
+          <img src={img02} alt="" />
+        </div>
+        <div className='col-md-6 col-lg-4'>
+          <img src={img03} alt="" />
+        </div>
+     
+      <div className='col-md-6 col-lg-4'>
+        <img src={img04} alt=""  />
+      </div>
+      <div className='col-md-6 col-lg-4'>
+        <img src={img05} alt="" />
+      </div>
+      <div className='col-md-6 col-lg-4'> 
+        <img src={img06} alt="" />
+      </div>
+    </div>
     </section>
   )
 }
