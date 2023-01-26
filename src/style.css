@@ -17,11 +17,6 @@ body{
 }
 
 
-img{
-    height: 250px;
-    margin: 10px 0 40px;
-}
-
 hr{
     width: 71px;
     height: 3px;
@@ -29,6 +24,10 @@ hr{
     opacity: 1;
     display: inline-block;
     margin: 0 13px;
+}
+
+#start img {
+    width: 250px;
 }
 
 span{

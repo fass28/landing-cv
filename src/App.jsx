@@ -3,7 +3,7 @@ import { Contact } from "./components/Contact"
 import { Footer } from "./components/Footer"
 import Modal from "./components/Modal"
 import { NavBar } from "./components/NavBar"
-import { Portafolio } from "./components/Portafolio"
+import { Portfolio } from "./components/Portfolio/Index"
 import { Start } from "./components/Start"
 
 const  App = () =>   {
@@ -11,7 +11,7 @@ const  App = () =>   {
     <>
       <NavBar></NavBar>
       <Start></Start>
-      <Portafolio></Portafolio>
+      <Portfolio></Portfolio>
       <About></About>
       <Contact></Contact>
       <Footer></Footer>

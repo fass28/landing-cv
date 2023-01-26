@@ -9,7 +9,7 @@ export const Start = () => {
         id="start"
       >
         <div className="container text-center">
-          <img src={avatarImg} alt="sadsad" />
+          <img src={avatarImg} alt="" className="img-fluid" />
           <h1>START BOOTSTRAP</h1>
           <span>
             <hr />

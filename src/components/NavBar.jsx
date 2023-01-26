@@ -6,7 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 export const NavBar = () => {
   return (
     <>
-      <section className="nav-bar" id="navBar">
+      <section className="nav-bar fixed-top" id="navBar">
         <Container>
           <Navbar variant="dark" expand="lg">
             <Navbar.Brand href="#home">START BOOTSTRAP</Navbar.Brand>

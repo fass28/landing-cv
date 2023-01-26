@@ -1,0 +1,13 @@
+.portfolio-card {
+    cursor: pointer;
+}
+
+.portfolio-card:hover .portfolio-content {
+    opacity: 1;
+}
+
+.portfolio-content {
+    background-color: rgba(26, 188, 156, 0.9);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
