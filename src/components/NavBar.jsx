@@ -11,13 +11,13 @@ export const NavBar = () => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto ">
               <li className="nav-item">
-                <a className="nav-link" href="#portfolio">PORTAFOLIO</a>
+                <a className="nav-link py-3 px-0 px-lg-3" href="#portfolio">PORTAFOLIO</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#about">ABOUT</a>
+                <a className="nav-link py-3 px-0 px-lg-3" href="#about">ABOUT</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">CONTACT</a>
+                <a className="nav-link py-3 px-0 px-lg-3" href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
