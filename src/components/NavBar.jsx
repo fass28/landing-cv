@@ -1,28 +1,43 @@
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+
 export const NavBar = () => {
   return (
-    <>  
-      <section className="nav-bar fixed-top" id="navBar">
-       <nav className="navbar navbar-expand-lg navbar-dark " >
-        <a className="navbar-brand" >START BOOTSTRAP</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           Menu <span className="navbar-toggler-icon"></span>
-        </button>
-
-        <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto ">
-              <li className="nav-item">
-                <a className="nav-link py-3 px-0 px-lg-3" href="#portfolio">PORTAFOLIO</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link py-3 px-0 px-lg-3" href="#about">ABOUT</a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link py-3 px-0 px-lg-3" href="#contact">CONTACT</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <>
+      <section className="nav-bar" id="navBar">
+        <Container>
+          <Navbar variant="dark" expand="lg">
+            <Navbar.Brand href="#home">START BOOTSTRAP</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav">
+              Menu <span className="navbar-toggler-icon"></span>
+            </Navbar.Toggle>
+            <Navbar.Collapse
+              id="basic-navbar-nav"
+              className="justify-content-end"
+            >
+              <Nav className="ml-auto">
+                <Nav.Item>
+                  <Nav.Link href="#portfolio" className="py-3 px-0 px-lg-3">
+                    PORTAFOLIO
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link href="#about" className="py-3 px-0 px-lg-3">
+                    ABOUT
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link href="#contact" className="py-3 px-0 px-lg-3">
+                    CONTACT
+                  </Nav.Link>
+                </Nav.Item>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        </Container>
       </section>
     </>
-  )
-}
+  );
+};

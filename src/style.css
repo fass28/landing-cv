@@ -9,7 +9,7 @@ body{
 .nav-bar{
     background-color: rgb(44, 62, 80);
     color: white;
-    padding: 20px 260px;
+    /* padding: 20px 260px; */
 }
 
 .nav-bar a{
@@ -208,7 +208,7 @@ h5 a{
     .nav-bar{
         background-color: rgb(44, 62, 80);
         color: white;
-        padding: 20px 50px
+        /* padding: 20px 50px */
     }
 
     .portafolio{
