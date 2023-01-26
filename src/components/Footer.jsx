@@ -16,7 +16,7 @@ export const Footer = () => {
             <a href="" id='icon'><FontAwesomeIcon icon={['fab', 'linkedin']}  className="icon"/> </a>
             <a href="" id='icon'><FontAwesomeIcon icon={['fab', 'instagram']}  className="icon"/> </a>
           </ul>
-          <ul className="col-4-lg col-sm-12">
+          <ul className="col-lg-4 col-sm-12">
             <h4><b>ABOUT FREELANCER</b></h4>
             <h5>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="">Start Bootstrap.</a></h5>
           </ul>
