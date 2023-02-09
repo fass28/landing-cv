@@ -25,6 +25,14 @@ export const Portfolio = () => {
       image: '04.png',
       title: 'Card 4',
     },
+    {
+      image: '05.png',
+      title: 'Card 5',
+    },
+    {
+      image: '06.png',
+      title: 'Card 6',
+    },
   ]
 
   return (
